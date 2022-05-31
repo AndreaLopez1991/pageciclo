@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image:url("../PAGE/Ima/png_20220528_175414_0000.png");
+    -webkit-background-size: cover;
+    background-size:cover ;
+    background-attachment: fixed;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+   

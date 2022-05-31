@@ -1,0 +1,85 @@
+ * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../PAGE/Ima/20220516_151602_0000.png);
+    -webkit-background-size: cover;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+h1{
+    color:black;
+}
+div{
+    font-weight: roboto;
+    color:#ff851b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor .form .form-header .form title{
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedor .form .form-header .form title span{
+    color: rgb(225, 185, 23);
+ }
+
+ .contenedor .form {
+     background: rgba(0, 0, 0, 0.6);
+     width: 70%;
+     max-width: 650%;
+     margin: auto;
+     padding: 5px 35px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     border-radius: 3px;
+     
+ }
+ .contenedor .form .form-label{
+     display: block;
+     color:#ff851b;
+     font-size: 16px;;
+     font-family: roboto;
+     position: relative;
+ }
+ .contenedor .form .form-input, .form-textarea{
+     background: rgba(0,0,0,.7);
+     border: none;
+     outline: none;
+     border-bottom: 2px solid #ff851b;
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     font-size: 14px;
+     color:#fff;
+     font-family: roboto;
+
+ }
+ .contenedor .form .form-textarea {
+     resize: vertical;
+     max-width: 150px;
+     min-height: 50px;
+ }
+ .contenedor .form .btn-submit{
+     width: 100%;
+     font-family: roboto;
+     outline: none;
+     background: #ff851b;
+     font-size: 18px;
+     border: none;
+     color: #fff;
+     padding: 15px 0;
+     cursor: pointer;
+     transition: all .5s ease;
+ }
+ .contenedor .form .btn-submit:hover{
+     background: #f29718;
+ }
